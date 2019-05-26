@@ -9,8 +9,8 @@ A set of starter templates including: HTML &amp; Sass, React, Webpack w/ Sass an
 ## Getting Started
 __Prerequisites__: git and node already installed.
 
-- __Step 1: clone repo OR clone template__
-  - To clone the repo:
+- __Step 1: clone repo OR clone a single template__
+  - __To clone the whole repo:__
 ```bash
 git clone https://github.com/EstenGrove/Starter-Templates.git
 ```

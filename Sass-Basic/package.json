@@ -4,7 +4,7 @@
   "description": "A basic Sass template using 7 to 1 architecture.",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/styles.css -w ."
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
   },
   "author": "Steven Gore",
   "license": "ISC",

@@ -21,3 +21,16 @@ html {
     color: $primary-color;
     font-family: $primary-font;
 }
+
+.main h1 {
+    font-size: 2.5rem;
+}
+
+.main b {
+    color: $secondary-color;
+}
+
+.main>p {
+    font-size: 1.5rem;
+    color: #333;
+}

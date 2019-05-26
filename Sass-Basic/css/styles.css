@@ -16,3 +16,13 @@ html {
   padding: 2rem;
   color: #5c75ea;
   font-family: "Raleway", sans-serif; }
+
+.main h1 {
+  font-size: 2.5rem; }
+
+.main b {
+  color: #00B7FF; }
+
+.main > p {
+  font-size: 1.5rem;
+  color: #333; }

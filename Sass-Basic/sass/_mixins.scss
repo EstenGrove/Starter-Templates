@@ -1,0 +1,4 @@
+@mixin rounded-edges {
+    border: 1px solid $borders;
+    border-radius: .5rem;
+}

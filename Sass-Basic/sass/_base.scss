@@ -18,17 +18,22 @@ html {
     max-width: 100vw;
     height: 100vh;
     padding: 2rem;
-    color: $primary-color;
     font-family: $primary-font;
+
+    &-title {
+        color: $primary-color;
+        font-size: 2.5rem;
+    }
+
+    &-title>b {
+        color: $secondary-color;
+    }
+
+
 }
 
-.main h1 {
-    font-size: 2.5rem;
-}
 
-.main b {
-    color: $secondary-color;
-}
+
 
 .main>p {
     font-size: 1.5rem;

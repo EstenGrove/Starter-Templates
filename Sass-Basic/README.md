@@ -2,10 +2,6 @@
 
 A set of starter templates including: HTML &amp; Sass, React, Webpack w/ Sass and others.
 
-## **Templates**
-
-- 7-1 Sass (Sass-Basic)
-- Webpack w/ Babel, Sass
 
 ## Getting Started
 
@@ -42,3 +38,7 @@ npm run compile:sass -w .
 ```
 
 - **Step 4: open your index.html in a browser and you're good to go!**
+
+### Starter Page
+- The page that loads after setup should look like so...
+![STARTER-TEMPLATES-sass](https://user-images.githubusercontent.com/41505038/58385247-2a24e000-7fa2-11e9-92bf-6706cb6c0b91.png)

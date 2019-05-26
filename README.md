@@ -14,7 +14,7 @@ __Prerequisites__: git and node already installed.
 ```bash
 git clone https://github.com/EstenGrove/Starter-Templates.git
 ```
-  	- To clone a single template:
+  - To clone a single template:
 ```bash
 # Cloning a specific folder from git
 svn checkout https://github.com/EstenGrove/Starter-Templates/trunk/<some-template>

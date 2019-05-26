@@ -1,0 +1,14 @@
+{
+  "name": "main-sass-template",
+  "version": "1.0.0",
+  "description": "A basic Sass template using 7 to 1 architecture.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w ."
+  },
+  "author": "Steven Gore",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

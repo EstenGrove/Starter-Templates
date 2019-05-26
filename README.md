@@ -19,6 +19,6 @@ git clone https://github.com/EstenGrove/Starter-Templates.git
 svn checkout https://github.com/EstenGrove/Starter-Templates/trunk/<some-template>
 
 # Cloning just the Sass Starter Template
-svn checkout https://github.com/EstenGrove/Starter-Templates/sass-basic
+svn checkout https://github.com/EstenGrove/Starter-Templates/trunk/Sass-Basic
 ```
 

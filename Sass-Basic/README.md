@@ -41,4 +41,4 @@ npm run compile:sass -w .
 
 ### Starter Page
 - The page that loads after setup should look like so...
-![STARTER-TEMPLATES-sass](https://user-images.githubusercontent.com/41505038/58385247-2a24e000-7fa2-11e9-92bf-6706cb6c0b91.png)
+![STARTER-TEMPLATE__sass](https://user-images.githubusercontent.com/41505038/58385272-7cfe9780-7fa2-11e9-950e-99e6d5880c9f.png)

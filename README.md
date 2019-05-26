@@ -14,7 +14,7 @@ __Prerequisites__: git and node already installed.
 ```bash
 git clone https://github.com/EstenGrove/Starter-Templates.git
 ```
-  - To clone a single template:
+  	- To clone a single template:
 ```bash
 # Cloning a specific folder from git
 svn checkout https://github.com/EstenGrove/Starter-Templates/trunk/<some-template>
@@ -27,7 +27,7 @@ svn checkout https://github.com/EstenGrove/Starter-Templates/trunk/Sass-Basic
 ```bash
 npm install
 ```
-- __Step 3: run the live server __
+- __Step 3: run the live server__
 	- NOTE: this command may vary based on the template(ie Sass-Basic template uses a different command, check the README.md)
 ```bash
 npm start

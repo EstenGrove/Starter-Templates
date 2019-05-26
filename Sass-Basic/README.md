@@ -1,20 +1,25 @@
 # Starter-Templates
+
 A set of starter templates including: HTML &amp; Sass, React, Webpack w/ Sass and others.
 
-## __Templates__
+## **Templates**
+
 - 7-1 Sass (Sass-Basic)
 - Webpack w/ Babel, Sass
 
-
 ## Getting Started
-__Prerequisites__: git and node already installed.
 
-- __Step 1: clone repo OR clone a single template__
-  - __To clone the whole repo:__
+**Prerequisites**: git and node already installed.
+
+- **Step 1: clone repo OR clone a single template**
+  - **To clone the whole repo:**
+
 ```bash
 git clone https://github.com/EstenGrove/Starter-Templates.git
 ```
-  - To clone a single template:
+
+- To clone a single template:
+
 ```bash
 # Cloning a specific folder from git
 svn checkout https://github.com/EstenGrove/Starter-Templates/trunk/<some-template>
@@ -22,13 +27,18 @@ svn checkout https://github.com/EstenGrove/Starter-Templates/trunk/<some-templat
 # Example: Cloning just the Sass Starter Template
 svn checkout https://github.com/EstenGrove/Starter-Templates/trunk/Sass-Basic
 ```
-- __Step 2: install dependencies__
-  - Change to the directory you just installed the project in ```cd mydir/``` first. 
+
+- **Step 2: install dependencies**
+  - Change to the directory you just installed the project in `cd mydir/` first.
+
 ```bash
 npm install
 ```
-- __Step 3: run the live server __
-	- NOTE: this command may vary based on the template(ie Sass-Basic template uses a different command, check the README.md)
+
+- **Step 3: run the live server with a `watch` flag to check for changes upon save**
+
 ```bash
-npm start
+npm run compile:sass -w .
 ```
+
+- **Step 4: open your index.html in a browser and you're good to go!**

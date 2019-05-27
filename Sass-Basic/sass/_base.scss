@@ -12,11 +12,15 @@ html {
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    background: #f4f4f4;
+}
 
 
 .main {
     max-width: 100vw;
     height: 100vh;
+    border: $borders;
     padding: 2rem;
     font-family: $primary-font;
 

@@ -10,9 +10,13 @@ html {
   font-size: 62.5%;
   font-family: 'Raleway', sans-serif; }
 
+body {
+  background: #f4f4f4; }
+
 .main {
   max-width: 100vw;
   height: 100vh;
+  border: #eaecef;
   padding: 2rem;
   font-family: "Raleway", sans-serif; }
   .main-title {

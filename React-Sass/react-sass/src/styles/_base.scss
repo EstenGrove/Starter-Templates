@@ -21,11 +21,21 @@ body {
     font-family: 'Raleway';
 
 
+
     &-main {
         font-family: 'Raleway';
         font-size: 3.5rem;
         padding: 2rem;
         text-align: center;
+        text-shadow: 2px 2px 9px #00B7FF;
+        -webkit-transition: .3s ease;
+        -webkit-transition: .5s ease;
+        transition: .5s ease;
+
+        &:hover {
+            text-shadow: 2px 2px 9px $primary-color;
+            ;
+        }
     }
 
     &-sub {
@@ -34,5 +44,24 @@ body {
         padding: 2rem;
         text-align: center;
         color: #444;
+
+        &:hover {
+            -webkit-text-decoration: underline #00B7FF;
+                    text-decoration: underline #00B7FF;
+        }
     }
+
 }
+
+/* --- Common Color Palette --- */
+/*
+#00B7FF - Bright Blue
+#5c75ea - Bright Purple
+#d7263d - Red
+#61E294 - Green
+#8a5cea - Purple
+#d20068 - Accent Red
+#5CBCEA - Baby Blue
+#eaecef - Light Grey Border
+#e84855 - Flat Red
+*/

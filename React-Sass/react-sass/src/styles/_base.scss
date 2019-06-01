@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #f3f3f3;
+    padding: .5rem;
+}
+
+
+.heading {
+    font-family: 'Raleway';
+
+
+    &-main {
+        font-family: 'Raleway';
+        font-size: 3.5rem;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    &-sub {
+        font-family: 'Raleway';
+        font-size: 1.8rem;
+        padding: 2rem;
+        text-align: center;
+        color: #444;
+    }
+}

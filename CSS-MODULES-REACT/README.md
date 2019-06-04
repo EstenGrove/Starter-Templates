@@ -10,6 +10,7 @@ A basic React starter template w/ CSS Modules. This version uses ```create-react
 
 ### __Usage__
 - When working w/ CSS Modules, you need to rename every ```css``` file from: ```Button.css ``` to: ```Button.module.css````.
+  - Although, this IS NOT completely necessary, but it provides other devs clarity that it's a CSS module.
 
 ###### Usage Example
 - After changing the name of your CSS file as shown above, now you need to *use* the styles.
@@ -32,19 +33,57 @@ A basic React starter template w/ CSS Modules. This version uses ```create-react
 - And now you've set up a CSS Module!
 
 
-## More Usage Examples
+## __More Usage Examples__
 - Single Class Name
 ```javascript
 <button className={styles.button}>Click</button>
 ```
-- Multiple Class Names
+##### Multiple Class Names
 ```javascript
-<button className={styles(
-  styles.button,
-  styles.disabled
-)}>Click</button>
+<button className={`${styles.button} ${styles.disabled}`}>Click</button>
 ```
+##### Conditional Styles
+```javascript
+<button className={disabled ? styles.disabled : styles.button}>Click</button>
+```
+##### Conditional Styling w/ Multiple Classes
+```javascript
+<button className={disabled ? `${styles.button} ${styles.disabled}` : styles.button}>Click</button>
+```
+##### Nested Classes(using specificity)
+```css
+.container .button {
+  padding: 1rem 2rem;
+  background: #5c75ea;
+  color: #fff;
+}
+```
+Now the react component:
+```javascript
+// this is the equivalent of .container .button in the css stylesheet from above
+<div className={styles.container}>
+  <button className={styles.button}>Click</button>
+</div>
+```
+##### CSS Using Composition
+- ```Composition``` is the method of using styles from different stylesheets and "inheriting" css styles in one stylesheet from *another* stylesheet. 
+###### Example of Composition
+```css
+// Button.module.css
+.button {
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+}
+// Login.module.css
+.login {
+  composes: button from './Button.module.css'
+  background: green;
+  color: #fff;
+}
 
+```
 
 
 #### Example Page

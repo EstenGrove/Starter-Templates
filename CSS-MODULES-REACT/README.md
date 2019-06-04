@@ -31,5 +31,21 @@ A basic React starter template w/ CSS Modules. This version uses ```create-react
 ```
 - And now you've set up a CSS Module!
 
+
+## More Usage Examples
+- Single Class Name
+```javascript
+<button className={styles.button}>Click</button>
+```
+- Multiple Class Names
+```javascript
+<button className={styles(
+  styles.button,
+  styles.disabled
+)}>Click</button>
+```
+
+
+
 #### Example Page
 ![CSS-Moduels](https://user-images.githubusercontent.com/41505038/58894269-84125d80-86a6-11e9-9d0e-a6ab2d88188e.png)

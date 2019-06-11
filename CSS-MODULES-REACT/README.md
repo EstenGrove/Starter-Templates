@@ -41,6 +41,9 @@ A basic React starter template w/ CSS Modules. This version uses ```create-react
 ##### Multiple Class Names
 ```javascript
 <button className={`${styles.button} ${styles.disabled}`}>Click</button>
+
+# multiple classes w/ hyphens in the name
+<button className={`${styles["accordion-btn"]} ${styles["expandAll"]}`}>Expand All</button>
 ```
 ##### Conditional Styles
 ```javascript
@@ -67,6 +70,7 @@ Now the react component:
 ```
 ##### CSS Using Composition
 - ```Composition``` is the method of using styles from different stylesheets and "inheriting" css styles in one stylesheet from *another* stylesheet. 
+
 ###### Example of Composition
 ```css
 // Button.module.css

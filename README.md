@@ -3,7 +3,11 @@ A set of starter templates including: HTML &amp; Sass, React, Webpack w/ Sass an
 
 ## __Templates__
 - [7-1 Sass (Sass-Basic)](https://github.com/EstenGrove/Starter-Templates/tree/master/Sass-Basic)
+- [React-CSS Modules](https://github.com/EstenGrove/Starter-Templates/tree/master/CSS-MODULES-REACT): React w/ CSS Modules
 - Webpack w/ Babel, Sass
+- [Express-Babel](https://github.com/EstenGrove/Starter-Templates/tree/master/Express/express-babel): Express and Babel setup
+- [Express Only](https://github.com/EstenGrove/Starter-Templates/tree/master/Express/express-only): Standalone Express template
+- [React-Sass](https://github.com/EstenGrove/Starter-Templates/tree/master/React-Sass/react-sass): React and Sass template
 
 
 ### Alternate 3rd-Party Templates * Starter Packs

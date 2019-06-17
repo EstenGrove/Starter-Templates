@@ -6,6 +6,15 @@ A set of starter templates including: HTML &amp; Sass, React, Webpack w/ Sass an
 - Webpack w/ Babel, Sass
 
 
+### Alternate 3rd-Party Templates * Starter Packs
+- [react-slingshot](https://github.com/coryhouse/react-slingshot): React & others
+	- Redux, Sass, Webpack, Babel, Jest and more
+- [react-boilerplate](https://github.com/react-boilerplate/react-boilerplate): Offline-centric React boilerplate, with auto-refresh
+- [react-starter-kit](https://github.com/kriasoft/react-starter-kit): Node.js, Express GraphQL and React with Babel and Webpack
+- [razzle](https://github.com/jaredpalmer/razzle): Server-Side rendered React template. Works with more than just React, such as Vue, Angular, Vanilla JS, Reason and Elm
+- [rekit](https://github.com/supnate/rekit): React, Redux and React Router. Will force a specific folder structure, very opinionated.
+- [react-pwa](https://github.com/Atyantik/react-pwa): React PWA template w/ server-side rendering. Only supports Safari and Chrome. Built in code-splitting, ES7 support, SSR and React Router.
+
 ## Getting Started
 __Prerequisites__: git and node already installed.
 

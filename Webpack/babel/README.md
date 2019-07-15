@@ -96,3 +96,17 @@ module.exports = {
   }
 };
 ```
+### To Add Additional Babel Plugins
+You'll want to extract the Babel setup/configuration into its' own file called: ```.babelrc```
+1. This file will go in the project root.
+2. Then move the babel config from the ```package.json``` into the ```.babelrc``` like so:
+  1. Remove the following from the package.json and move it into the .babelrc
+```
+"babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+```
+  2. A list of useful Babel plugins can be found [here](https://babeljs.io/docs/en/plugins)
+  3. Then try doing an ```import``` by creating another file in the "src" directory and import it into the index.js

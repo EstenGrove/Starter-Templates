@@ -21,7 +21,7 @@ NOTE: at this point the project structure should appear like so:
   1. However, the script that ```npm start``` runs is looking for a ```webpack.config.js```. So, we'll need to create it
 6. Create a ```webpack.config.js``` by running: ```touch webpack.config.js``` in the project root.
   1. Inside the ```webpack.config.js``` paste the following code:
-  ```json
+  ```
   module.exports = {
   // 1
   entry: './src/index.js',

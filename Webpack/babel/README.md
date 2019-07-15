@@ -54,8 +54,8 @@ NOTE: at this point the project structure should appear like so:
     ]
   }
   ```
-  1. Then place the same in the webpack.config.js:
-    ```
+  1. Then place the same in the webpack.config.js, this allows up-to-date Babel features without managing transforms.
+  ```
     babel: {
       presets: ["@babel/preset-env"]
     }

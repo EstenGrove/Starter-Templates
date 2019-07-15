@@ -1,4 +1,4 @@
-# Setup a Webpack & Babel Project
+# Setup a Webpack & Babel Project (*from scratch*)
 
 
 ## Steps

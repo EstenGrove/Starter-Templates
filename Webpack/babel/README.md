@@ -2,7 +2,7 @@
 
 
 ## Steps
-### Setup Webpackf
+### Setup Webpack
 1. Create a default ```package.json``` file: ```npm init -y```
 2. Create a "src" directory that will be the entry point for webpack: ```mkdir src```
   1. Change in the "src" directory and create an ```index.js```: ```touch index.js```

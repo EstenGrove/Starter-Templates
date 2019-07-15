@@ -2,6 +2,7 @@
 
 
 ## Steps
+### Setup Webpackf
 1. Create a default ```package.json``` file: ```npm init -y```
 2. Create a "src" directory that will be the entry point for webpack: ```mkdir src```
   1. Change in the "src" directory and create an ```index.js```: ```touch index.js```
@@ -40,4 +41,22 @@ NOTE: at this point the project structure should appear like so:
     1. (1) Use the src/index.js file as entry point to bundle it. If the src/index.js file imports other JavaScript files, bundle them as well.
     2. (2) The bundled source code files shall result in a bundle.js file in the /dist folder.
     3. (3) The /dist folder will be used to serve our application to the browser.
-
+7. Then inside the ```/dist``` folder create a ```bundle.js```, then change the script tag's src in the index.html file to use the bundle.js file.
+  1. Then run ```npm start``` and this should automagically load the index.html page in the browser using the Webpack-Dev-Server.
+### Setup Babel
+1. Run: ```npm i -D @babel/core @babel/preset-env``` to install babel-core.
+  1. If Webpack is already in place then you'll need to run: ```npm i -D babel-loader``` as well.
+2. Then tell Webpack to respect Babel's changes by placing the following in the package.json:
+```
+"babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+  ```
+  1. Then place the same in the webpack.config.js:
+    ```
+    babel: {
+      presets: ["@babel/preset-env"]
+    }
+  ```

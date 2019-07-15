@@ -1,0 +1,26 @@
+{
+  "name": "webpack-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "Steven G. <echo.alchemist.design@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

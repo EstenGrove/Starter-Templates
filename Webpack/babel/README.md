@@ -60,3 +60,18 @@ NOTE: at this point the project structure should appear like so:
       presets: ["@babel/preset-env"]
     }
   ```
+3. Then inside the the webpack.config.js file you'll need to paste the following to include Babel in the build process:
+```
+module: {
+    rules: [
+      {
+        test: /\.(js)$/,
+        exclude: /node_modules/,
+        use: ['babel-loader']
+      }
+    ]
+  },
+  resolve: {
+    extensions: ['*', '.js']
+  }
+```

@@ -54,12 +54,6 @@ NOTE: at this point the project structure should appear like so:
     ]
   }
   ```
-  1. Then place the same in the webpack.config.js, this allows up-to-date Babel features without managing transforms.
-  ```
-    babel: {
-      presets: ["@babel/preset-env"]
-    }
-  ```
 3. Then inside the the webpack.config.js file you'll need to paste the following to include Babel in the build process:
 ```
 module: {
@@ -74,4 +68,31 @@ module: {
   resolve: {
     extensions: ['*', '.js']
   }
+```
+NOTE: The webpack.config.js should looks like so:
+```
+module.exports = {
+  entry: "./src/index.js",
+
+  module: {
+    rules: [
+      {
+        test: /\.(js)$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"]
+      }
+    ]
+  },
+  resolve: {
+    extensions: ["*", ".js"]
+  },
+  output: {
+    path: __dirname + "/dist",
+    publicPath: "/",
+    filename: "bundle.js"
+  },
+  devServer: {
+    contentBase: "./dist"
+  }
+};
 ```

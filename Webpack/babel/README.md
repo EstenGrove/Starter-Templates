@@ -110,3 +110,15 @@ You'll want to extract the Babel setup/configuration into its' own file called: 
 ```
   2. A list of useful Babel plugins can be found [here](https://babeljs.io/docs/en/plugins)
   3. Then try doing an ```import``` by creating another file in the "src" directory and import it into the index.js
+3. And you're all set!!!
+
+
+----------------
+
+
+# Setup Webpack and Babel Using this Repo's Template
+
+## Steps
+1. Clone this folder only
+2. Run ```npm install```
+3. Then run: ```npm start``` to start the Webpack Dev Server and get the app running!!

@@ -1,0 +1,48 @@
+@import './variables';
+
+
+.container {
+
+
+    &-LG {
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    &-MD {
+        max-width: 50vw;
+        height: 50vh;
+    }
+
+    &-FIXED_MD {
+        width: 50rem;
+        height: 50rem;
+    }
+
+    &-FIXED_SM {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+// Spacing Utilities
+.marginTop {
+    margin-top: .5rem;
+
+    &-LG {
+        margin-top: 4rem;
+    }
+
+    &-MD {
+        margin-top: 2rem;
+    }
+
+    &-SM {
+        margin-top: 1rem;
+    }
+}
+
+// Color Utilities
+.charcoal {
+    background-color: $charcoal;
+}

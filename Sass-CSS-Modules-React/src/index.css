@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* --- Common Color Palette --- */
+/*
+#00B7FF - Bright Blue
+#5c75ea - Bright Purple
+#d7263d - Red
+#61E294 - Green
+#8a5cea - Purple
+#d20068 - Accent Red
+#5CBCEA - Baby Blue
+#eaecef - Light Grey Border
+#e84855 - Flat Red
+#FF6F91 - Flat pink
+#F9F871 - Flat yellow
+#FA9823 - Flat orange
+#00C9A7 - Flat green
+#4B4453 - Flat charcoal
+#5183f5 - Neon Purple for Borders
+#b3b9c5 - Grey Color (text w/ dark theme)
+*/
